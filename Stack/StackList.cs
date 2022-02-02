@@ -8,11 +8,13 @@ namespace Stack
         private List<T> _stack = new List<T>();
 
 
-        public T Push()
+        //Inserts an object at the top
+        public void Push(T value)
         {
-            
+            _stack.Add(value);
         }
 
+        //Removes and returns the object at the top
         public T Pop()
         {
             if (_stack.Count > 0)
@@ -24,6 +26,7 @@ namespace Stack
             return default(T);
         }
 
+        //Returns the object at the top, without removing it.
         public T Peek()
         {
             if (_stack.Count > 0) return _stack.Last();
