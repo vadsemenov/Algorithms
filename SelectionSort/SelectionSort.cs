@@ -16,11 +16,11 @@ namespace SelectionSort
 
         public static int[] selectionSort(int[] array)
         {
-            int min,temp;
+            int min, temp;
             for (int i = 0; i < array.Length; i++)
             {
                 min = i;
-                for (int j = i+1; j < array.Length; j++)
+                for (int j = i + 1; j < array.Length; j++)
                 {
                     if (array[j] < array[min])
                     {
