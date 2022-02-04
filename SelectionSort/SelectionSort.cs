@@ -16,23 +16,21 @@ namespace SelectionSort
 
         public static int[] selectionSort(int[] array)
         {
-            int temp;
-            for (int i = 0; i < array.Length - 1; i++)
+            int min,temp;
+            for (int i = 0; i < array.Length; i++)
             {
-                int jMin = i;
-                for (int j = i + 1; j < array.Length; j++)
+                min = i;
+                for (int j = i+1; j < array.Length; j++)
                 {
-                    if (array[j] < array[jMin])
+                    if (array[j] < array[min])
                     {
-                        jMin = j;
+                        min = j;
                     }
                 }
-                if (jMin != i)
-                {
-                    temp = array[i];
-                    array[i] = array[jMin];
-                    array[jMin] = temp;
-                }
+
+                temp = array[min];
+                array[min] = array[i];
+                array[i] = temp;
             }
             return array;
         }
