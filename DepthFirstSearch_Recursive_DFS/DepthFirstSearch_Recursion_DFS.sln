@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepthFirstSearch_Recursion_DFS", "DepthFirstSearch_Recursion_DFS.csproj", "{50DA166B-82AE-4E1B-9AFD-E917557109F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50DA166B-82AE-4E1B-9AFD-E917557109F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DA166B-82AE-4E1B-9AFD-E917557109F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DA166B-82AE-4E1B-9AFD-E917557109F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DA166B-82AE-4E1B-9AFD-E917557109F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49651E7E-8460-4602-8C9C-D8D304A648E2}
+	EndGlobalSection
+EndGlobal
