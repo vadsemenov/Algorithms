@@ -8,13 +8,17 @@ namespace SelectionSort
         public static void Main(String[] args)
         {
             int[] array = { 5, 6, 0, 1, 2, 4, 3 };
-            foreach (var digit in selectionSort(array))
+
+            Console.WriteLine("Original array: " + string.Join(" ", array));
+
+            Console.Write("After sorting: ");
+            foreach (var digit in Sort(array))
             {
-                Console.WriteLine(digit + " ");
+                Console.Write(digit + " ");
             }
         }
 
-        public static int[] selectionSort(int[] array)
+        public static int[] Sort(int[] array)
         {
             int min, temp;
             for (int i = 0; i < array.Length; i++)

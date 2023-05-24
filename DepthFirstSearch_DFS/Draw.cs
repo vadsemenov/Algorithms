@@ -84,7 +84,7 @@ public class Draw
     {
         if (!IsEmpty(a, b))
             return;
-    
+
         SetMap(a, b, v);
         stack.Push(new Coord(a, b));
     }
@@ -99,11 +99,11 @@ public class Draw
     public void Frame()
     {
         for (int x = 0; x < w; x++)
-        for (int y = 0; y < h; y++)
-        {
-            if (x == 0 || y == 0 || x == w - 1 || y == h - 1)
-                SetMap(x, y, 1);
-        }
+            for (int y = 0; y < h; y++)
+            {
+                if (x == 0 || y == 0 || x == w - 1 || y == h - 1)
+                    SetMap(x, y, 1);
+            }
     }
 
     public bool IsEmpty(int x, int y)
