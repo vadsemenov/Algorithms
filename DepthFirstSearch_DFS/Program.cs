@@ -1,4 +1,4 @@
-﻿namespace DepthFirstSearch_Recursion_DFS;
+﻿namespace DepthFirstSearch_DFS;
 
 public class Program
 {
@@ -7,7 +7,7 @@ public class Program
         var draw = new Draw(60, 20);
         draw.Frame();
         draw.AddRandomPixels(100);
-        draw.DepthFirstSeachRecursion(31, 10, 6);
+        draw.BreathFirstSearch(31, 10, 6);
         Thread.Sleep(300);
         Console.ReadKey();
     }
